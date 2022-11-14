@@ -1,12 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
         <img src="" className="App-logo" alt="logo" />
         <p>
-          Edit <code></code> and save to reload.
+          
         </p>
         <a
           className="App-link"
@@ -21,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
